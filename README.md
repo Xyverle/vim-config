@@ -8,8 +8,8 @@ pacman -S vim nodejs fzf the_silver_searcher
 ```
 Install the config
 ```sh
-chmod +x install.sh
-./install.sh
+cp -r .vim ~
+cp .vimrc ~
 ```
 # Vim Language Server
 If you want autocompletion see
