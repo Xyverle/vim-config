@@ -13,7 +13,7 @@ Features include:
 # Sample Image
 ![](SampleImage.png)
 
-# How to install
+# How to Install
 Install Vim, [Nodejs](https://nodejs.org/en/), [fzf](https://github.com/junegunn/fzf) and [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
 ```sh
 pacman -S vim nodejs fzf the_silver_searcher
