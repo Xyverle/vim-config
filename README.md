@@ -18,7 +18,7 @@ Install Vim, [Nodejs](https://nodejs.org/en/), [fzf](https://github.com/junegunn
 ```sh
 pacman -S vim nodejs fzf the_silver_searcher
 ```
-Install the config
+Install the config ([What you are running](https://raw.githubusercontent.com/Xyverle/vim-configs/main/install.sh))
 ```sh
 curl -N https://raw.githubusercontent.com/Xyverle/vim-configs/main/install.sh|bash
 ```
