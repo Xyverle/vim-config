@@ -1,13 +1,14 @@
 Extremely lightweight vimrc (only 50 lines)
+
 Features include:
-File explorer
-LSP support
-Autocomplete
-Statusbar
-Comment lines hotkey
-Fuzzy find
-Multi-line editing
-Git commands
+* File explorer
+* LSP support
+* Autocomplete
+* Statusbar
+* Comment lines hotkey
+* Fuzzy find
+* Multi-line editing
+* Git commands
 
 # Sample Image
 ![](SampleImage.png)
