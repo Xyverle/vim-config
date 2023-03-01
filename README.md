@@ -20,7 +20,7 @@ pacman -S vim nodejs fzf the_silver_searcher
 ```
 Install the config ([What you are running](https://raw.githubusercontent.com/Xyverle/vim-configs/main/install.sh))
 ```sh
-curl -N https://raw.githubusercontent.com/Xyverle/vim-configs/main/install.sh|bash
+curl -N https://raw.githubusercontent.com/Xyverle/vim-config/main/install.sh|bash
 ```
 # Vim Language Server
 If you want autocompletion see
