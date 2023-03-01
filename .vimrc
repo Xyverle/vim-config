@@ -24,15 +24,19 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 "	Basic settings
 autocmd VimEnter * set noshowmode
 set history=500 noerrorbells
-	\ number relativenumber
-	\ hlsearch incsearch
-	\ autoindent smartindent
-	\ nocompatible termguicolors
+	\ number relativenumber hlsearch incsearch
+	\ autoindent smartindent nocompatible termguicolors
 	\ tabstop=4 shiftwidth=4
 	\ backspace=indent,eol,start
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 nnoremap S :%s//g<Left><Left>
 nnoremap F /\</><Left><Left>
+nnoremap j <Left>
+nnoremap k <Down><Left>
+nnoremap l <Up>
+nnoremap ; <Right>
+nnoremap <tab> :bn<CR>
+nnoremap <S-tab> :bp<CR>
 "	Automatically turn on/off paste mode
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 function! XTermPasteBegin()
@@ -44,7 +48,3 @@ endfunction
 colorscheme onedark
 let g:airline_theme='onedark'
 hi Normal guibg=NONE ctermbg=NONE
-nnoremap j <Left>
-nnoremap k <Down><Left> 
-nnoremap l <Up>
-nnoremap ; <Right>
