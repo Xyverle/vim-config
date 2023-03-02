@@ -10,11 +10,9 @@ Features include:
 * Multi-line editing
 * Git commands
 
-# Useful commands
+Useful Commands
 *:Ag searches in the directory you opened vim in
 *:W writes with sudo
-
-##Normal Mode:
 *S - find and replace
 *F - find
 *tab - switch tabs
