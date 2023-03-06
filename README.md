@@ -30,7 +30,7 @@ Install the config ([What you are running](https://raw.githubusercontent.com/Xyv
 ```sh
 curl -N https://raw.githubusercontent.com/Xyverle/vim-config/main/install.sh|bash
 ```
-Then, open vim and type ```:PlugInstall:``` restart vim and the config should work
+Then, open vim and type ```:PlugInstall``` restart vim and the config should work
 # Vim Language Server
 If you want autocompletion see
 
