@@ -6,4 +6,5 @@ rm -r ~/.vim
 cp -r .vim ~
 rm ~/.vimrc
 cp .vimrc ~
+cd
 rm -r vim-config
