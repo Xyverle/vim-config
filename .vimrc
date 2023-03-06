@@ -24,10 +24,10 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 "	Basic settings
 autocmd VimEnter * set noshowmode
 set history=500 noerrorbells
-	\ number relativenumber hlsearch incsearch
-	\ autoindent smartindent nocompatible termguicolors
-	\ tabstop=4 shiftwidth=4
-	\ backspace=indent,eol,start
+set number relativenumber hlsearch incsearch
+set autoindent smartindent nocompatible termguicolors
+set tabstop=4 shiftwidth=4
+set backspace=indent,eol,start
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 nnoremap S :%s//g<Left><Left>
 nnoremap F /\</><Left><Left>
