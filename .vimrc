@@ -32,8 +32,8 @@ command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 nnoremap S :%s//g<Left><Left>
 nnoremap F /\</><Left><Left>
 nnoremap j <Left>
-nnoremap k <Down><Left>
-nnoremap l <Up>
+nnoremap k <Up>
+nnoremap l <Down><Left>
 nnoremap ; <Right>
 nnoremap <tab> :bn<CR>
 nnoremap <S-tab> :bp<CR>
