@@ -22,13 +22,14 @@ Useful Commands
 ![](SampleImage.png)
 
 # How to Install
-Install Vim, [Nodejs](https://nodejs.org/en/), [fzf](https://github.com/junegunn/fzf) and [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+Install Vim, [Nodejs](https://nodejs.org/en/), [fzf](https://github.com/junegunn/fzf)
+optional: [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) [ripgrep](https://github.com/BurntSushi/ripgrep)
 ```sh
-sudo pacman -S vim nodejs fzf the_silver_searcher
+sudo pacman -S vim nodejs fzf the_silver_searcher ripgrep
 ```
 Install the config ([What you are running](https://raw.githubusercontent.com/Xyverle/vim-configs/main/install.sh))
 ```sh
-curl -N https://raw.githubusercontent.com/Xyverle/vim-config/main/install.sh|bash
+curl -N https://raw.githubusercontent.com/Xyverle/vim-config/main/install.sh | bash
 ```
 Then, open vim. It will have errors but just press enter to get past them.
 
