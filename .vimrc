@@ -47,4 +47,4 @@ nnoremap <S-tab> :bp<CR>
 "	Colorscheme
 colorscheme onedark
 let g:airline_theme='onedark'
-hi Normal guibg=NONE ctermbg=NONE
+"hi Normal guibg=NONE ctermbg=NONE
