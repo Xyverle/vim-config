@@ -8,3 +8,4 @@ rm ~/.vimrc
 cp .vimrc ~
 cd
 rm -rf vim-configs
+echo "vim configuration installed properly \n make sure to run :PlugInstall in vim"
