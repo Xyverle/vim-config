@@ -42,8 +42,8 @@ noremap ; <Right>
 noremap h <Left> " effectively unmaps h
 nnoremap h :%s//g<Left><Left>
 nnoremap F /\</><Left><Left>
-nnoremap <tab> :bn<CR>
-nnoremap <S-tab> :bp<CR>
+nnoremap <tab> :w<CR> :bn<CR>
+nnoremap <S-tab> :w<CR> :bp<CR>
 "	Colorscheme
 colorscheme onedark
 let g:airline_theme='onedark'
