@@ -11,7 +11,8 @@ Features include:
 * Git commands
 
 Useful Commands
-* :Ag searches in the directory you opened vim in
+* :Ag searches in the directory you opened vim in (uses the silver searcher)
+* :Rg searches in the directory you opened vim in (uses ripgrep)
 * :W writes with sudo
 * S - find and replace
 * F - find
